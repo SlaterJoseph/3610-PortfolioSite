@@ -1,0 +1,56 @@
+.background {
+	background-image: url("images/forest.jpg");
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+.archer {
+	position: absolute;
+	top: 42%;
+	left: 20%;
+	transform: translateY(-50%);
+	width: 10%;
+	height: auto;
+	transform: rotate(20deg);
+}
+
+.man {
+	position: absolute;
+	top: 77%;
+	left: 70%;
+	transform: translateY(-50%);
+	width: 6%;
+	height: auto;
+}
+
+.arrow {
+	position: absolute;
+	top: 52%;
+	left: 23%;
+	width: 10%;
+	height: auto;
+	transform: rotate(20deg);
+}
+
+.speech-bubble {
+	position: absolute;
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.archer-speech {
+	top: 40%;
+	left: 30%;
+}
+
+.man-speech {
+	top: 60%;
+	left: 70%;
+	display: none;
+}
