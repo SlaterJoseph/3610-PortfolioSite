@@ -1,0 +1,26 @@
+canvas {
+    border: 1px solid #ccc;
+  }
+  
+.chart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 16px;
+}
+
+.bar-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.bar {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.label {
+    white-space: nowrap;
+}
+  
