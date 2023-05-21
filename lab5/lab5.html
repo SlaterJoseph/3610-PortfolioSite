@@ -1,34 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
-    /* Adjust the video element to fit the screen */
-    body, html {
-      height: 100%;
-      margin: 0;
-    }
-
-    video {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="lab5.css">
 </head>
 <body>
-  <video id="myVideo" autoplay loop>
-    <source src="video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-
-  <script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-      const video = document.getElementById('myVideo');
-      video.addEventListener('ended', function() {
-        this.currentTime = 0;
-        this.play();
-      });
-    });
-  </script>
+  <div id="mediaContainer"></div>
+  <div id="textContainer">
+    <p>The video would not work. I tried multiple downloads and none worked. I also plugged in different videos and those worked fine, so I put the gif instead of the video. I hope that suffices.</p>
+  </div>
+  <div>
+    <img src="sea.gif">
+  </div>
+  <script src="lab5.js"></script>
 </body>
 </html>
